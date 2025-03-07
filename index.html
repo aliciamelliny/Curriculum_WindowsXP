@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Windows XP</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    
+</head>
+<body>
+    <div id= "windowsXP">
+        <div class= "area-de-trabalho">
+          <div class="desktop-icon" style="top: 20px; left: 20px;">
+            <img src="imgs/computador.png" alt="Meu Computador">
+            <span>Meu Computador</span>
+        </div>
+        <div class="desktop-icon" style="top: 100px; left: 20px;">
+            <img src="imgs/lixeira.png" alt="Lixeira">
+            <span>Lixeira</span>
+        </div>
+        <div class="desktop-icon" style="top: 180px; left: 20px;">
+            <img src="imgs/documentos.png" alt="Documentos">
+            <span>Documentos</span>
+        </div>
+        <div class="desktop-icon" style="top: 260px; left: 20px;">
+            <img src="imgs/rede.png" alt="Rede">
+            <span>Rede</span></div>
+        <div class="desktop-icon" style="top: 340px; left: 20px;">
+            <img src="imgs/internet_explorer.png" alt="Rede">
+            <span>Internet Explorer</span>
+            </div>   
+
+            <!--BAHHHHHHHHHHH-->
+
+
+
+            <div class="window" style="width: 300px; height: 700px; top: 40px; left: 350px;">
+                <div class="title-bar">
+                    <img src="imgs/folder.png" class="title-icon">
+                    <div class="title-bar-text">˚₊‧꒰ა ☆ ໒꒱ ‧₊˚</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body" >
+                    <div class="menu-row">
+                        <p class="menu-btn">File</p>
+                        <p class="menu-btn">Edit</p>
+                        <p class="menu-btn">View</p>
+                        <p class="menu-btn">Favorites</p>
+                        <p class="menu-btn">Tools</p>
+                        <p class="menu-btn">Help</p>
+                        <img src="imgs/iniciar_janela.png" class="icon-iniciar-janela">
+                    </div>
+                    <hr class="solid">
+                    <div class="barra-explorar">
+                        <div class="barra-item">
+                            <img src="imgs/back.png" id="back">
+                            <p>Back ▾</p>
+                        </div>
+                        <div class="barra-item">
+                            <img src="imgs/frente.png" id="frente">
+                            <p>▾</p>
+                        </div>
+                        <div class="barra-item">
+                            <img src="imgs/folder_arrow.png" id="pasta_seta">
+                        </div>
+                        <span class="barra-vertical">|</span>
+                        <div class="barra-item">
+                            <img src="imgs/search.png" id="lupa">
+                            <p>Search</p>
+                        </div>
+                        <div class="barra-item">
+                            <img src="imgs/folder.png" id="folder">
+                            <p>Folders</p>
+                        </div>
+                        <span class="barra-vertical">|</span>
+                        <div class="barra-item">
+                            <img src="imgs/more_folders.png" id="more_folders">
+                            <p>▾</p>
+                        </div>
+                    </div>
+                    <div class="barra-divisoria"></div>
+                    <section class="com__address_bar">
+                        <div class="com__address_bar__title">Address</div>
+                        <div class="com__address_bar__content">
+                            <img src="imgs/folder.png" alt="ie" class="com__address_bar__content__img" id="address-icon">
+                            <div class="com__address_bar__content__text" id="address-text">˚₊‧꒰ა ☆ ໒꒱ ‧₊˚</div>
+                            <img src="imgs/seta.png" id="seta" alt="dropdown" class="com__address_bar__content__img">
+                        </div>
+                        <div class="com__address_bar__go">
+                            <img class="com__address_bar__go__img" src="imgs/go.png" alt="go">
+                            <span class="com__address_bar__go__text"><strong>Go</strong></span>
+                        </div>
+                    </section>
+                    <hr class="solid" id="barra3">
+                </div>
+                <div class="window-content">
+                    <div class="side-bar">
+                        <div class="background-side-bar">
+                        <ul>
+                            <li><a href="#" data-content="perfil"><img src="imgs/perfil_icon_file.png"> Perfil</a></li>
+                            <li><a href="#" data-content="experiencia"><img src="imgs/experiencia.png"> Experiência</a></li>
+                            <li><a href="#" data-content="formacao"><img src="imgs/formacao.png"> Formação</a></li>
+                            <li><a href="#" data-content="habilidades"><img src="imgs/habilidades_icon.png"> Habilidades</a></li>
+                            <li><a href="#" data-content="contato"><img src="imgs/contato.png"> Contato</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div id="content-area">
+                    </div>
+                </div>
+            </div>
+
+        <div class="barra-de-tarefas">
+         <button id="iniciar"><img width=20px src="imgs/iniciar.png"> &nbsp; Iniciar</button>
+        <div class="area-de-notificacao">
+        <div class="icon" id="volume"></div>
+        <div class="icon" id="media"></div>
+        <div class="icon" id="seguranca"></div>
+        <div id="relogio">--:--</div>
+      </div>           
+      </div>
+     </div>
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js" integrity="sha512-MSOo1aY+3pXCOCdGAYoBZ6YGI0aragoQsg1mKKBHXCYPIWxamwOE7Drh+N5CPgGI5SA9IEKJiPjdfqWFWmZtRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src='script.js'></script>
+</body>
+</html>
